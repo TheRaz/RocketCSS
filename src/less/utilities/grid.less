@@ -1,0 +1,14 @@
+.createPush(@i, @cols) when (@i < @cols) {
+	.push-@{i}of@{cols} {
+		margin-left: percentage(@i/@cols);
+	}
+}
+.generateGrid(@cols, @i: 1) when (@i =< @cols) {
+	.generateGrid(@cols, (@i + 1));
+	.block-@{i}of@{cols} {
+		min-height:1px;
+		width: percentage(@i/@cols);
+		float:left;
+	}
+	.createPush(@i, @cols);
+}

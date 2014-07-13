@@ -1,0 +1,9 @@
+.createGrid(@columns,@i: 1) when(@i =< @columns) {
+	.createGrid(@columns, (@i + 1));
+	.generateGrid(@i);
+}
+.createGrid(@column-amount);
+.container {width: 1024px;}
+.row {
+	.clear;
+}

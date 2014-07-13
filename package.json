@@ -1,0 +1,14 @@
+{
+  "name": "RocketCSS",
+  "version": "0.0.1",
+  "description": "ALPHA",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-less": "~0.11.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-contrib-cssmin": "~0.4.1",
+    "less": "~1.7.0",
+    "grunt-cssbeautifier": "~0.1.2"
+  }
+}
